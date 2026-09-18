@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/icon.png">
+    <title>Пятый Харгривз — персонаж Академии Амбрелла</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a class="header__logo" href="#home">
+            <img class="header__logo-img" src="img/logo.jpg" alt="На главную — Пятый Харгривз" width="80" height="80">
+        </a>
+        <nav class="header__nav" aria-label="Основное меню">
+            <ul class="header__menu">
+                <li class="header__item"><a class="header__link" href="#home">Главная</a></li>
+                <li class="header__item"><a class="header__link" href="#about">О персонаже</a></li>
+                <li class="header__item"><a class="header__link" href="#family">Семья</a></li>
+                <li class="header__item"><a class="header__link" href="#gallery">Галерея</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero__text">
+                <p class="hero__kicker">НОМЕР ПЯТЬ</p>
+                <h1 class="hero__title" id="hero-title">ПЯТЫЙ ХАРГРИВЗ</h1>
+                <blockquote class="hero__quote">
+                    «Знаешь, как называют героя, который действует один и никого не слушает? Злодеем.»
+                </blockquote>
+            </div>
+            <div class="hero__media">
+                <img class="hero__image" src="img/banner.jpg" alt="Пятый Харгривз в форме Академии Амбрелла" width="550" height="400">
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about" id="about" aria-labelledby="about-title">
+            <h2 class="about__title" id="about-title">О персонаже</h2>
+            <div class="about__inner">
+                <article class="card">
+                    <h3 class="card__title">Путешественник во времени</h3>
+                    <p class="card__text">Пятый Харгривз — один из приёмных детей с необычными способностями, усыновлённых сэром Реджинальдом Харгривзом. Он известен своим острым умом, сарказмом, хладнокровием и привычкой полагаться прежде всего на себя.</p>
+                    <p class="card__text">После неудачного прыжка во времени Пятый оказался в постапокалиптическом будущем и был вынужден провести там десятилетия. Вернувшись, он ставит перед собой одну цель — не допустить конца света и спасти свою семью.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card__title">Характер</h3>
+                    <p class="card__text">В детстве Пятый казался более холодным и бесчувственным по сравнению с братьями и сёстрами.</p>
+                    <p class="card__text">После 45 лет в постапокалиптическом будущем его психика серьёзно пострадала. Он стал более раздражительным, замкнутым, в нём появилась склонность к отчуждённости. При этом он не терял надежды и продолжал искать способ вернуться, чтобы предупредить семью.</p>
+                    <p class="card__text">Как наёмный убийца в рамках Временной комиссии он приобрёл садистские черты: в бою был безжалостен, угрожал врагам.</p>
+                    <p class="card__text">В общении он часто бывает резким, язвительным, может вести себя грубо и пренебрежительно.</p>
+                    <p class="card__text">Вместе с тем у него есть и сильные стороны: он находчив, обладает гениальным интеллектом и яростно предан своей миссии — спасти мир и уберечь семью.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Family -->
+        <section class="family" id="family" aria-labelledby="family-title">
+            <h2 class="family__title" id="family-title">Семья</h2>
+
+            <div class="family__row">
+                <article class="family__member">
+                    <img class="family__photo" src="img/father.jpg" alt="Реджинальд Харгривз" width="250" height="250" loading="lazy">
+                    <h3 class="family__name">Реджинальд Харгривз</h3>
+                    <p class="family__role">приёмный отец</p>
+                </article>
+                <article class="family__member">
+                    <img class="family__photo" src="img/mother.jpg" alt="Грейс" width="250" height="250" loading="lazy">
+                    <h3 class="family__name">Грейс</h3>
+                    <p class="family__role">приёмная мать</p>
+                </article>
+                <article class="family__member">
+                    <img class="family__photo" src="img/pogo.jpg" alt="Пого" width="250" height="250" loading="lazy">
+                    <h3 class="family__name">Пого</h3>
+                    <p class="family__role">дворецкий</p>
+                </article>
+            </div>
+
+            <div class="family__row">
+                <article class="family__member">
+                    <img class="family__photo" src="img/number1.jpg" alt="Лютер" width="250" height="250" loading="lazy">
+                    <h3 class="family__name">Лютер</h3>
+                    <p class="family__role">номер один</p>
+                </article>
+                <article class="family__member">
+                    <img class="family__photo" src="img/number2.jpg" alt="Диего" width="250" height="250" loading="lazy">
+                    <h3 class="family__name">Диего</h3>
+                    <p class="family__role">номер два</p>
+                </article>
+                <article class="family__member">
+                    <img class="family__photo" src="img/number3.jpg" alt="Эллисон" width="250" height="250" loading="lazy">
+                    <h3 class="family__name">Эллисон</h3>
+                    <p class="family__role">номер три</p>
+                </article>
+                <article class="family__member">
+                    <img class="family__photo" src="img/number4.jpg" alt="Клаус" width="250" height="250" loading="lazy">
+                    <h3 class="family__name">Клаус</h3>
+                    <p class="family__role">номер четыре</p>
+                </article>
+            </div>
+
+            <div class="family__row">
+                <article class="family__member">
+                    <img class="family__photo" src="img/number5.jpg" alt="Пятый" width="250" height="250" loading="lazy">
+                    <h3 class="family__name">Пятый</h3>
+                    <p class="family__role">номер пять</p>
+                </article>
+                <article class="family__member">
+                    <img class="family__photo" src="img/number6.jpg" alt="Бен" width="250" height="250" loading="lazy">
+                    <h3 class="family__name">Бен</h3>
+                    <p class="family__role">номер шесть</p>
+                </article>
+                <article class="family__member">
+                    <img class="family__photo" src="img/number7.jpg" alt="Ваня" width="250" height="250" loading="lazy">
+                    <h3 class="family__name">Ваня</h3>
+                    <p class="family__role">номер семь</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+            <h2 class="gallery__title" id="gallery-title">Галерея</h2>
+            <ul class="gallery__grid">
+                <li class="gallery__item">
+                    <img class="gallery__image" src="img/five1.jpg" alt="Пятый" width="600" height="600" loading="lazy" decoding="async">
+                </li>
+                <li class="gallery__item">
+                    <img class="gallery__image" src="img/five2.jpg" alt="Пятый" width="600" height="600" loading="lazy" decoding="async">
+                </li>
+                <li class="gallery__item">
+                    <img class="gallery__image" src="img/five3.jpg" alt="Пятый" width="600" height="600" loading="lazy" decoding="async">
+                </li>
+                <li class="gallery__item">
+                    <img class="gallery__image" src="img/five4.jpg" alt="Пятый" width="600" height="600" loading="lazy" decoding="async">
+                </li>
+                <li class="gallery__item">
+                    <img class="gallery__image" src="img/five5.jpg" alt="Пятый" width="600" height="600" loading="lazy" decoding="async">
+                </li>
+                <li class="gallery__item">
+                    <img class="gallery__image" src="img/five6.jpg" alt="Пятый" width="600" height="600" loading="lazy" decoding="async">
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copy">© Все права защищены. Мустафина Р.Р.</p>
+    </footer>
+</body>
+</html>
